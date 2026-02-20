@@ -2,6 +2,6 @@
 FROM [RefreshTokens] 
 WHERE [IsDeleted] = 0 
 	AND [Token] = @PRM_RefreshToken_Token 
-	AND [IsRevoked] = '0' 
+	AND [IsRevoked] = 0 
 	AND [ExpiryDate] > GETDATE() 
 ORDER BY [Id] 
