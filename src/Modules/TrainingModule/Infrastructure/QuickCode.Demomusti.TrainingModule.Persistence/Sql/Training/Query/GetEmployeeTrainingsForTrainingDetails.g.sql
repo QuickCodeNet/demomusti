@@ -1,0 +1,1 @@
+﻿SELECT * FROM [EMPLOYEE_TRAININGS] WHERE [TRAINING_ID] = @trainingId AND [ID] = @employeeTrainingsId

@@ -1,0 +1,1 @@
+﻿SELECT * FROM [CANDIDATE_SOURCES] WHERE [SOURCE_TYPE_ID] = @sourceTypesId AND [ID] = @candidateSourcesId

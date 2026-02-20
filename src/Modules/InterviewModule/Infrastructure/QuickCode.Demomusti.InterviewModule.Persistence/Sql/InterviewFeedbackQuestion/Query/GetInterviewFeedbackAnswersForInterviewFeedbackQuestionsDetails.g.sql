@@ -1,0 +1,1 @@
+﻿SELECT * FROM [INTERVIEW_FEEDBACK_ANSWERS] WHERE [QUESTION_ID] = @interviewFeedbackQuestionsId AND [ID] = @interviewFeedbackAnswersId

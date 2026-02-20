@@ -1,0 +1,1 @@
+﻿SELECT * FROM [SKILLS] WHERE [CANDIDATE_ID] = @candidatesId

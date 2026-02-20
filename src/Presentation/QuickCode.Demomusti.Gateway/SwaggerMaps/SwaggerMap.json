@@ -1,0 +1,30 @@
+{
+  "identity-module-api": {
+    "Endpoint": "/swagger/identity-module-api/v1/swagger.json",
+    "Spec": "/swagger/v1/swagger.json",
+    "PathOptions": {
+      "/api": "/api"
+    }
+  },
+  "candidate-tracking-module-api": {
+    "Endpoint": "/swagger/candidate-tracking-module-api/v1/swagger.json",
+    "Spec": "/swagger/v1/swagger.json",
+    "PathOptions": {
+      "/api": "/api"
+    }
+  },
+  "interview-module-api": {
+    "Endpoint": "/swagger/interview-module-api/v1/swagger.json",
+    "Spec": "/swagger/v1/swagger.json",
+    "PathOptions": {
+      "/api": "/api"
+    }
+  },
+  "training-module-api": {
+    "Endpoint": "/swagger/training-module-api/v1/swagger.json",
+    "Spec": "/swagger/v1/swagger.json",
+    "PathOptions": {
+      "/api": "/api"
+    }
+  }
+}

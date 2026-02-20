@@ -1,0 +1,534 @@
+﻿{
+  "PortalMenus": [
+    {
+      "Key": "IdentityModule_IdentityModule",
+      "Name": "IdentityModule",
+      "Text": "IdentityModule",
+      "Tooltip": "IdentityModule",
+      "ActionName": "",
+      "OrderNo": 100,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_ApiMethodAccessGrants",
+      "Name": "ApiMethodAccessGrants",
+      "Text": "ApiMethodAccessGrants",
+      "Tooltip": "ApiMethodAccessGrants",
+      "ActionName": "/IdentityModuleApiMethodAccessGrants/List",
+      "OrderNo": 100,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_ApiMethodDefinitions",
+      "Name": "ApiMethodDefinitions",
+      "Text": "ApiMethodDefinitions",
+      "Tooltip": "ApiMethodDefinitions",
+      "ActionName": "/IdentityModuleApiMethodDefinitions/List",
+      "OrderNo": 101,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_AspNetRoles",
+      "Name": "AspNetRoles",
+      "Text": "AspNetRoles",
+      "Tooltip": "AspNetRoles",
+      "ActionName": "/IdentityModuleAspNetRoles/List",
+      "OrderNo": 102,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_AspNetRoleClaims",
+      "Name": "AspNetRoleClaims",
+      "Text": "AspNetRoleClaims",
+      "Tooltip": "AspNetRoleClaims",
+      "ActionName": "/IdentityModuleAspNetRoleClaims/List",
+      "OrderNo": 103,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_AspNetUsers",
+      "Name": "AspNetUsers",
+      "Text": "AspNetUsers",
+      "Tooltip": "AspNetUsers",
+      "ActionName": "/IdentityModuleAspNetUsers/List",
+      "OrderNo": 104,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_AspNetUserClaims",
+      "Name": "AspNetUserClaims",
+      "Text": "AspNetUserClaims",
+      "Tooltip": "AspNetUserClaims",
+      "ActionName": "/IdentityModuleAspNetUserClaims/List",
+      "OrderNo": 105,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_AspNetUserLogins",
+      "Name": "AspNetUserLogins",
+      "Text": "AspNetUserLogins",
+      "Tooltip": "AspNetUserLogins",
+      "ActionName": "/IdentityModuleAspNetUserLogins/List",
+      "OrderNo": 106,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_AspNetUserRoles",
+      "Name": "AspNetUserRoles",
+      "Text": "AspNetUserRoles",
+      "Tooltip": "AspNetUserRoles",
+      "ActionName": "/IdentityModuleAspNetUserRoles/List",
+      "OrderNo": 107,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_AspNetUserTokens",
+      "Name": "AspNetUserTokens",
+      "Text": "AspNetUserTokens",
+      "Tooltip": "AspNetUserTokens",
+      "ActionName": "/IdentityModuleAspNetUserTokens/List",
+      "OrderNo": 108,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_AuditLogs",
+      "Name": "AuditLogs",
+      "Text": "AuditLogs",
+      "Tooltip": "AuditLogs",
+      "ActionName": "/IdentityModuleAuditLogs/List",
+      "OrderNo": 109,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_ColumnTypes",
+      "Name": "ColumnTypes",
+      "Text": "ColumnTypes",
+      "Tooltip": "ColumnTypes",
+      "ActionName": "/IdentityModuleColumnTypes/List",
+      "OrderNo": 110,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_KafkaEvents",
+      "Name": "KafkaEvents",
+      "Text": "KafkaEvents",
+      "Tooltip": "KafkaEvents",
+      "ActionName": "/IdentityModuleKafkaEvents/List",
+      "OrderNo": 111,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_Models",
+      "Name": "Models",
+      "Text": "Models",
+      "Tooltip": "Models",
+      "ActionName": "/IdentityModuleModels/List",
+      "OrderNo": 112,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_Modules",
+      "Name": "Modules",
+      "Text": "Modules",
+      "Tooltip": "Modules",
+      "ActionName": "/IdentityModuleModules/List",
+      "OrderNo": 113,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_PermissionGroups",
+      "Name": "PermissionGroups",
+      "Text": "PermissionGroups",
+      "Tooltip": "PermissionGroups",
+      "ActionName": "/IdentityModulePermissionGroups/List",
+      "OrderNo": 114,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_PortalMenus",
+      "Name": "PortalMenus",
+      "Text": "PortalMenus",
+      "Tooltip": "PortalMenus",
+      "ActionName": "/IdentityModulePortalMenus/List",
+      "OrderNo": 115,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_PortalPageAccessGrants",
+      "Name": "PortalPageAccessGrants",
+      "Text": "PortalPageAccessGrants",
+      "Tooltip": "PortalPageAccessGrants",
+      "ActionName": "/IdentityModulePortalPageAccessGrants/List",
+      "OrderNo": 116,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_PortalPageDefinitions",
+      "Name": "PortalPageDefinitions",
+      "Text": "PortalPageDefinitions",
+      "Tooltip": "PortalPageDefinitions",
+      "ActionName": "/IdentityModulePortalPageDefinitions/List",
+      "OrderNo": 117,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_RefreshTokens",
+      "Name": "RefreshTokens",
+      "Text": "RefreshTokens",
+      "Tooltip": "RefreshTokens",
+      "ActionName": "/IdentityModuleRefreshTokens/List",
+      "OrderNo": 118,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_TableComboboxSettings",
+      "Name": "TableComboboxSettings",
+      "Text": "TableComboboxSettings",
+      "Tooltip": "TableComboboxSettings",
+      "ActionName": "/IdentityModuleTableComboboxSettings/List",
+      "OrderNo": 119,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "IdentityModule_TopicWorkflows",
+      "Name": "TopicWorkflows",
+      "Text": "TopicWorkflows",
+      "Tooltip": "TopicWorkflows",
+      "ActionName": "/IdentityModuleTopicWorkflows/List",
+      "OrderNo": 120,
+      "ParentName": "IdentityModule"
+    },
+    {
+      "Key": "CandidateTrackingModule_CandidateTrackingModule",
+      "Name": "CandidateTrackingModule",
+      "Text": "CandidateTrackingModule",
+      "Tooltip": "CandidateTrackingModule",
+      "ActionName": "",
+      "OrderNo": 121,
+      "ParentName": "CandidateTrackingModule"
+    },
+    {
+      "Key": "CandidateTrackingModule_ApplicationNotes",
+      "Name": "ApplicationNotes",
+      "Text": "ApplicationNotes",
+      "Tooltip": "ApplicationNotes",
+      "ActionName": "/CandidateTrackingModuleApplicationNotes/List",
+      "OrderNo": 121,
+      "ParentName": "CandidateTrackingModule"
+    },
+    {
+      "Key": "CandidateTrackingModule_AuditLogs",
+      "Name": "AuditLogs",
+      "Text": "AuditLogs",
+      "Tooltip": "AuditLogs",
+      "ActionName": "/CandidateTrackingModuleAuditLogs/List",
+      "OrderNo": 122,
+      "ParentName": "CandidateTrackingModule"
+    },
+    {
+      "Key": "CandidateTrackingModule_Candidates",
+      "Name": "Candidates",
+      "Text": "Candidates",
+      "Tooltip": "Candidates",
+      "ActionName": "/CandidateTrackingModuleCandidates/List",
+      "OrderNo": 123,
+      "ParentName": "CandidateTrackingModule"
+    },
+    {
+      "Key": "CandidateTrackingModule_CandidateSources",
+      "Name": "CandidateSources",
+      "Text": "CandidateSources",
+      "Tooltip": "CandidateSources",
+      "ActionName": "/CandidateTrackingModuleCandidateSources/List",
+      "OrderNo": 124,
+      "ParentName": "CandidateTrackingModule"
+    },
+    {
+      "Key": "CandidateTrackingModule_Experiences",
+      "Name": "Experiences",
+      "Text": "Experiences",
+      "Tooltip": "Experiences",
+      "ActionName": "/CandidateTrackingModuleExperiences/List",
+      "OrderNo": 125,
+      "ParentName": "CandidateTrackingModule"
+    },
+    {
+      "Key": "CandidateTrackingModule_Qualifications",
+      "Name": "Qualifications",
+      "Text": "Qualifications",
+      "Tooltip": "Qualifications",
+      "ActionName": "/CandidateTrackingModuleQualifications/List",
+      "OrderNo": 126,
+      "ParentName": "CandidateTrackingModule"
+    },
+    {
+      "Key": "CandidateTrackingModule_Skills",
+      "Name": "Skills",
+      "Text": "Skills",
+      "Tooltip": "Skills",
+      "ActionName": "/CandidateTrackingModuleSkills/List",
+      "OrderNo": 127,
+      "ParentName": "CandidateTrackingModule"
+    },
+    {
+      "Key": "CandidateTrackingModule_SourceTypes",
+      "Name": "SourceTypes",
+      "Text": "SourceTypes",
+      "Tooltip": "SourceTypes",
+      "ActionName": "/CandidateTrackingModuleSourceTypes/List",
+      "OrderNo": 128,
+      "ParentName": "CandidateTrackingModule"
+    },
+    {
+      "Key": "InterviewModule_InterviewModule",
+      "Name": "InterviewModule",
+      "Text": "InterviewModule",
+      "Tooltip": "InterviewModule",
+      "ActionName": "",
+      "OrderNo": 129,
+      "ParentName": "InterviewModule"
+    },
+    {
+      "Key": "InterviewModule_AuditLogs",
+      "Name": "AuditLogs",
+      "Text": "AuditLogs",
+      "Tooltip": "AuditLogs",
+      "ActionName": "/InterviewModuleAuditLogs/List",
+      "OrderNo": 129,
+      "ParentName": "InterviewModule"
+    },
+    {
+      "Key": "InterviewModule_Interviews",
+      "Name": "Interviews",
+      "Text": "Interviews",
+      "Tooltip": "Interviews",
+      "ActionName": "/InterviewModuleInterviews/List",
+      "OrderNo": 130,
+      "ParentName": "InterviewModule"
+    },
+    {
+      "Key": "InterviewModule_Interviewers",
+      "Name": "Interviewers",
+      "Text": "Interviewers",
+      "Tooltip": "Interviewers",
+      "ActionName": "/InterviewModuleInterviewers/List",
+      "OrderNo": 131,
+      "ParentName": "InterviewModule"
+    },
+    {
+      "Key": "InterviewModule_InterviewFeedbackAnswers",
+      "Name": "InterviewFeedbackAnswers",
+      "Text": "InterviewFeedbackAnswers",
+      "Tooltip": "InterviewFeedbackAnswers",
+      "ActionName": "/InterviewModuleInterviewFeedbackAnswers/List",
+      "OrderNo": 132,
+      "ParentName": "InterviewModule"
+    },
+    {
+      "Key": "InterviewModule_InterviewFeedbackQuestions",
+      "Name": "InterviewFeedbackQuestions",
+      "Text": "InterviewFeedbackQuestions",
+      "Tooltip": "InterviewFeedbackQuestions",
+      "ActionName": "/InterviewModuleInterviewFeedbackQuestions/List",
+      "OrderNo": 133,
+      "ParentName": "InterviewModule"
+    },
+    {
+      "Key": "InterviewModule_InterviewNotes",
+      "Name": "InterviewNotes",
+      "Text": "InterviewNotes",
+      "Tooltip": "InterviewNotes",
+      "ActionName": "/InterviewModuleInterviewNotes/List",
+      "OrderNo": 134,
+      "ParentName": "InterviewModule"
+    },
+    {
+      "Key": "InterviewModule_InterviewSchedules",
+      "Name": "InterviewSchedules",
+      "Text": "InterviewSchedules",
+      "Tooltip": "InterviewSchedules",
+      "ActionName": "/InterviewModuleInterviewSchedules/List",
+      "OrderNo": 135,
+      "ParentName": "InterviewModule"
+    },
+    {
+      "Key": "TrainingModule_TrainingModule",
+      "Name": "TrainingModule",
+      "Text": "TrainingModule",
+      "Tooltip": "TrainingModule",
+      "ActionName": "",
+      "OrderNo": 136,
+      "ParentName": "TrainingModule"
+    },
+    {
+      "Key": "TrainingModule_AuditLogs",
+      "Name": "AuditLogs",
+      "Text": "AuditLogs",
+      "Tooltip": "AuditLogs",
+      "ActionName": "/TrainingModuleAuditLogs/List",
+      "OrderNo": 136,
+      "ParentName": "TrainingModule"
+    },
+    {
+      "Key": "TrainingModule_EmployeeTrainings",
+      "Name": "EmployeeTrainings",
+      "Text": "EmployeeTrainings",
+      "Tooltip": "EmployeeTrainings",
+      "ActionName": "/TrainingModuleEmployeeTrainings/List",
+      "OrderNo": 137,
+      "ParentName": "TrainingModule"
+    },
+    {
+      "Key": "TrainingModule_Training",
+      "Name": "Training",
+      "Text": "Training",
+      "Tooltip": "Training",
+      "ActionName": "/TrainingModuleTraining/List",
+      "OrderNo": 138,
+      "ParentName": "TrainingModule"
+    },
+    {
+      "Key": "TrainingModule_TrainingCategories",
+      "Name": "TrainingCategories",
+      "Text": "TrainingCategories",
+      "Tooltip": "TrainingCategories",
+      "ActionName": "/TrainingModuleTrainingCategories/List",
+      "OrderNo": 139,
+      "ParentName": "TrainingModule"
+    },
+    {
+      "Key": "TrainingModule_TrainingCategoryAssignments",
+      "Name": "TrainingCategoryAssignments",
+      "Text": "TrainingCategoryAssignments",
+      "Tooltip": "TrainingCategoryAssignments",
+      "ActionName": "/TrainingModuleTrainingCategoryAssignments/List",
+      "OrderNo": 140,
+      "ParentName": "TrainingModule"
+    },
+    {
+      "Key": "TrainingModule_TrainingFeedbacks",
+      "Name": "TrainingFeedbacks",
+      "Text": "TrainingFeedbacks",
+      "Tooltip": "TrainingFeedbacks",
+      "ActionName": "/TrainingModuleTrainingFeedbacks/List",
+      "OrderNo": 141,
+      "ParentName": "TrainingModule"
+    },
+    {
+      "Key": "TrainingModule_TrainingMaterials",
+      "Name": "TrainingMaterials",
+      "Text": "TrainingMaterials",
+      "Tooltip": "TrainingMaterials",
+      "ActionName": "/TrainingModuleTrainingMaterials/List",
+      "OrderNo": 142,
+      "ParentName": "TrainingModule"
+    },
+    {
+      "Key": "TrainingModule_TrainingSessions",
+      "Name": "TrainingSessions",
+      "Text": "TrainingSessions",
+      "Tooltip": "TrainingSessions",
+      "ActionName": "/TrainingModuleTrainingSessions/List",
+      "OrderNo": 143,
+      "ParentName": "TrainingModule"
+    }
+  ],
+  "TableComboboxSettings": [
+    {
+      "TableName": "ApiMethodDefinition",
+      "IdColumn": "Key",
+      "TextColumns": "HttpMethod, UrlPath",
+      "StringFormat": "{0} - {1}"
+    },
+    {
+      "TableName": "AspNetRole",
+      "IdColumn": "Id",
+      "TextColumns": "Name",
+      "StringFormat": "{0}"
+    },
+    {
+      "TableName": "AspNetUser",
+      "IdColumn": "Id",
+      "TextColumns": "Id, FirstName, LastName",
+      "StringFormat": "{0} - {1} {2}"
+    },
+    {
+      "TableName": "KafkaEvent",
+      "IdColumn": "TopicName",
+      "TextColumns": "TopicName",
+      "StringFormat": "{0}"
+    },
+    {
+      "TableName": "Module",
+      "IdColumn": "Name",
+      "TextColumns": "Name",
+      "StringFormat": "{0}"
+    },
+    {
+      "TableName": "Model",
+      "IdColumn": "Name",
+      "TextColumns": "Name, ModuleName",
+      "StringFormat": "{0} - {1}"
+    },
+    {
+      "TableName": "PermissionGroup",
+      "IdColumn": "Name",
+      "TextColumns": "Name",
+      "StringFormat": "{0}"
+    },
+    {
+      "TableName": "PortalPageDefinition",
+      "IdColumn": "Key",
+      "TextColumns": "Key",
+      "StringFormat": "{0}"
+    },
+    {
+      "TableName": "Candidate",
+      "IdColumn": "Id",
+      "TextColumns": "FirstName",
+      "StringFormat": "{0}"
+    },
+    {
+      "TableName": "SourceType",
+      "IdColumn": "Id",
+      "TextColumns": "SourceName",
+      "StringFormat": "{0}"
+    },
+    {
+      "TableName": "Interviewer",
+      "IdColumn": "Id",
+      "TextColumns": "FirstName",
+      "StringFormat": "{0}"
+    },
+    {
+      "TableName": "Interview",
+      "IdColumn": "Id",
+      "TextColumns": "Feedback",
+      "StringFormat": "{0}"
+    },
+    {
+      "TableName": "InterviewFeedbackQuestion",
+      "IdColumn": "Id",
+      "TextColumns": "QuestionText",
+      "StringFormat": "{0}"
+    },
+    {
+      "TableName": "Training",
+      "IdColumn": "Id",
+      "TextColumns": "CourseName",
+      "StringFormat": "{0}"
+    },
+    {
+      "TableName": "EmployeeTraining",
+      "IdColumn": "Id",
+      "TextColumns": "Grade",
+      "StringFormat": "{0}"
+    },
+    {
+      "TableName": "TrainingCategory",
+      "IdColumn": "Id",
+      "TextColumns": "CategoryName",
+      "StringFormat": "{0}"
+    }
+  ]
+}

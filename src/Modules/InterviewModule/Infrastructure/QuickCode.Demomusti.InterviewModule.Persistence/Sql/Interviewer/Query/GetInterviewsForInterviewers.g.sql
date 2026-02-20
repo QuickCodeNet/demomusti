@@ -1,0 +1,1 @@
+﻿SELECT * FROM [INTERVIEWS] WHERE [INTERVIEWER_ID] = @interviewersId

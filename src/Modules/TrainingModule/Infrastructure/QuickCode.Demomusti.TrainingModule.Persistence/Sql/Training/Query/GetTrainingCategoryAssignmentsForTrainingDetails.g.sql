@@ -1,0 +1,1 @@
+﻿SELECT * FROM [TRAINING_CATEGORY_ASSIGNMENTS] WHERE [TRAINING_ID] = @trainingId AND [ID] = @trainingCategoryAssignmentsId

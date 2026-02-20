@@ -1,0 +1,13 @@
+.vs
+bin
+obj
+QuickCode.Demomusti.Api/bin
+QuickCode.Demomusti.Api/obj
+QuickCode.Demomusti.Portal/bin
+QuickCode.Demomusti.Portal/obj
+QuickCode.Demomusti.Web/bin
+QuickCode.Demomusti.Web/obj
+QuickCode.Demomusti.DataLayer/bin
+QuickCode.Demomusti.DataLayer/obj
+.DS_Store
+/src/.idea

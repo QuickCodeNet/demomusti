@@ -1,0 +1,4 @@
+﻿UPDATE [CANDIDATES] 
+	SET [IS_ACTIVE] = 0 
+WHERE [IsDeleted] = 0 
+	AND [ID] = @PRM_CANDIDATE_ID

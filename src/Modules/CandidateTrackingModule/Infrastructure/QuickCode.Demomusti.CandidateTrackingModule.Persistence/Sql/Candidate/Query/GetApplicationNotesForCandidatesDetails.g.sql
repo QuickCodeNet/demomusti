@@ -1,0 +1,1 @@
+﻿SELECT * FROM [APPLICATION_NOTES] WHERE [CANDIDATE_ID] = @candidatesId AND [ID] = @applicationNotesId

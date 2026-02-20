@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" />
+    <PackageReference Include="Moq" />
+  </ItemGroup>
+
+  <ItemGroup>
+      <ProjectReference Include="../QuickCode.Demomusti.IdentityModule.Api/QuickCode.Demomusti.IdentityModule.Api.csproj" />
+    <ProjectReference Include="../../Core/QuickCode.Demomusti.IdentityModule.Application/QuickCode.Demomusti.IdentityModule.Application.csproj" />
+    <ProjectReference Include="../../Core/QuickCode.Demomusti.IdentityModule.Domain/QuickCode.Demomusti.IdentityModule.Domain.csproj" />
+  </ItemGroup>
+
+</Project> 

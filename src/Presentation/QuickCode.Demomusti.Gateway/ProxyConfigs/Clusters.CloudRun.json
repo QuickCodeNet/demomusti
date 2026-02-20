@@ -1,0 +1,148 @@
+{
+  "ReverseProxy": {
+    "clusters": {
+      "auth-api": {
+        "clusterId": "auth-api",
+        "destinations": {
+          "destination1": {
+            "address": "https://demomusti-identity-module-821209474183.europe-west1.run.app"
+          }
+        }
+      },
+      "identity-module-api": {
+        "clusterId": "identity-module-api",
+        "destinations": {
+          "destination1": {
+            "address": "https://demomusti-identity-module-821209474183.europe-west1.run.app"
+          }
+        }
+      },
+      "candidate-tracking-module-api": {
+        "clusterId": "candidate-tracking-module-api",
+        "destinations": {
+          "destination1": {
+            "address": "https://demomusti-candidate-tracking-module-821209474183.europe-west1.run.app"
+          }
+        }
+      },
+      "interview-module-api": {
+        "clusterId": "interview-module-api",
+        "destinations": {
+          "destination1": {
+            "address": "https://demomusti-interview-module-821209474183.europe-west1.run.app"
+          }
+        }
+      },
+      "training-module-api": {
+        "clusterId": "training-module-api",
+        "destinations": {
+          "destination1": {
+            "address": "https://demomusti-training-module-821209474183.europe-west1.run.app"
+          }
+        }
+      }
+    },
+    "routes": {
+      "auth": {
+        "routeId": "auth",
+        "clusterId": "auth-api",
+        "authorizationPolicy": null,
+        "match": {
+          "path": "api/auth/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "demomusti-gateway-821209474183.europe-west1.run.app",
+            "demomusti-gateway",
+            "quickcode-demomusti-gateway-api",
+            "demomusti-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/auth/{**catch-all}"
+          }
+        ]
+      },
+      "identity-module": {
+        "routeId": "identity-module",
+        "clusterId": "identity-module-api",
+        "authorizationPolicy": "QuickCodeGatewayPolicy",
+        "match": {
+          "path": "api/identity-module/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "demomusti-gateway-821209474183.europe-west1.run.app",
+            "demomusti-gateway",
+            "quickcode-demomusti-gateway-api",
+            "demomusti-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/identity-module/{**catch-all}"
+          }
+        ]
+      },
+      "candidate-tracking-module": {
+        "routeId": "candidate-tracking-module",
+        "clusterId": "candidate-tracking-module-api",
+        "authorizationPolicy": "QuickCodeGatewayPolicy",
+        "match": {
+          "path": "api/candidate-tracking-module/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "demomusti-gateway-821209474183.europe-west1.run.app",
+            "demomusti-gateway",
+            "quickcode-demomusti-gateway-api",
+            "demomusti-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/candidate-tracking-module/{**catch-all}"
+          }
+        ]
+      },
+      "interview-module": {
+        "routeId": "interview-module",
+        "clusterId": "interview-module-api",
+        "authorizationPolicy": "QuickCodeGatewayPolicy",
+        "match": {
+          "path": "api/interview-module/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "demomusti-gateway-821209474183.europe-west1.run.app",
+            "demomusti-gateway",
+            "quickcode-demomusti-gateway-api",
+            "demomusti-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/interview-module/{**catch-all}"
+          }
+        ]
+      },
+      "training-module": {
+        "routeId": "training-module",
+        "clusterId": "training-module-api",
+        "authorizationPolicy": "QuickCodeGatewayPolicy",
+        "match": {
+          "path": "api/training-module/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "demomusti-gateway-821209474183.europe-west1.run.app",
+            "demomusti-gateway",
+            "quickcode-demomusti-gateway-api",
+            "demomusti-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/training-module/{**catch-all}"
+          }
+        ]
+      }
+    }
+  }
+}

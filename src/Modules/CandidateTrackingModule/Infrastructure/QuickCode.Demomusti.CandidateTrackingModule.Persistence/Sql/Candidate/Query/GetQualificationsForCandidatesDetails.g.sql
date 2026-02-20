@@ -1,0 +1,1 @@
+﻿SELECT * FROM [QUALIFICATIONS] WHERE [CANDIDATE_ID] = @candidatesId AND [ID] = @qualificationsId

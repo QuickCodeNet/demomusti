@@ -1,0 +1,819 @@
+﻿{
+"KafkaEvents": [
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulemodulesModulesController",
+    "TopicName": "demomusti.identity_module.modules_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulemodulesnameModulesController",
+    "TopicName": "demomusti.identity_module.modules_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodulesnameModulesController",
+    "TopicName": "demomusti.identity_module.modules_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodelsdeletemodelswithmodulenamemodelmodulenameModelsController",
+    "TopicName": "demomusti.identity_module.models.delete_models_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulemodelsModelsController",
+    "TopicName": "demomusti.identity_module.models_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulemodelsnamemodulenameModelsController",
+    "TopicName": "demomusti.identity_module.models_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodelsnamemodulenameModelsController",
+    "TopicName": "demomusti.identity_module.models_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulepermissiongroupsPermissionGroupsController",
+    "TopicName": "demomusti.identity_module.permission_groups_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "TopicName": "demomusti.identity_module.permission_groups_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "TopicName": "demomusti.identity_module.permission_groups_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionsdeleteapimethoddefinitionswithmodulenameapimethoddefinitionmodulenameApiMethodDefinitionsController",
+    "TopicName": "demomusti.identity_module.api_method_definitions.delete_api_method_definitions_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionsdeleteapimethoddefinitionswithmodelnameapimethoddefinitionmodelnameApiMethodDefinitionsController",
+    "TopicName": "demomusti.identity_module.api_method_definitions.delete_api_method_definitions_with_model_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethoddefinitionsApiMethodDefinitionsController",
+    "TopicName": "demomusti.identity_module.api_method_definitions_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "TopicName": "demomusti.identity_module.api_method_definitions_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "TopicName": "demomusti.identity_module.api_method_definitions_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionsdeleteportalpagedefinitionswithmodulenameportalpagedefinitionmodulenamePortalPageDefinitionsController",
+    "TopicName": "demomusti.identity_module.portal_page_definitions.delete_portal_page_definitions_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionsdeleteportalpagedefinitionswithmodelnameportalpagedefinitionmodelnamePortalPageDefinitionsController",
+    "TopicName": "demomusti.identity_module.portal_page_definitions.delete_portal_page_definitions_with_model_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpagedefinitionsPortalPageDefinitionsController",
+    "TopicName": "demomusti.identity_module.portal_page_definitions_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "TopicName": "demomusti.identity_module.portal_page_definitions_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "TopicName": "demomusti.identity_module.portal_page_definitions_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethodaccessgrantsclearapimethodaccessgrantsApiMethodAccessGrantsController",
+    "TopicName": "demomusti.identity_module.api_method_access_grants.clear_api_method_access_grants_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethodaccessgrantsApiMethodAccessGrantsController",
+    "TopicName": "demomusti.identity_module.api_method_access_grants_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "TopicName": "demomusti.identity_module.api_method_access_grants_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "TopicName": "demomusti.identity_module.api_method_access_grants_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpageaccessgrantsclearportalpageaccessgrantsPortalPageAccessGrantsController",
+    "TopicName": "demomusti.identity_module.portal_page_access_grants.clear_portal_page_access_grants_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpageaccessgrantsPortalPageAccessGrantsController",
+    "TopicName": "demomusti.identity_module.portal_page_access_grants_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "TopicName": "demomusti.identity_module.portal_page_access_grants_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "TopicName": "demomusti.identity_module.portal_page_access_grants_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenusdeleteportalmenuitemswithmodulenameportalmenukeyPortalMenusController",
+    "TopicName": "demomusti.identity_module.portal_menus.delete_portal_menu_items_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenusdeleteportalmenuitemswithmodelnameportalmenukeyportalmenunamePortalMenusController",
+    "TopicName": "demomusti.identity_module.portal_menus.delete_portal_menu_items_with_model_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalmenusPortalMenusController",
+    "TopicName": "demomusti.identity_module.portal_menus_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalmenuskeyPortalMenusController",
+    "TopicName": "demomusti.identity_module.portal_menus_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenuskeyPortalMenusController",
+    "TopicName": "demomusti.identity_module.portal_menus_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulecolumntypesColumnTypesController",
+    "TopicName": "demomusti.identity_module.column_types_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulecolumntypesidintColumnTypesController",
+    "TopicName": "demomusti.identity_module.column_types_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulecolumntypesidintColumnTypesController",
+    "TopicName": "demomusti.identity_module.column_types_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduletablecomboboxsettingsTableComboboxSettingsController",
+    "TopicName": "demomusti.identity_module.table_combobox_settings_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "TopicName": "demomusti.identity_module.table_combobox_settings_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "TopicName": "demomusti.identity_module.table_combobox_settings_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventscleankafkaeventswithmodulenameapimethoddefinitionsmodulenameKafkaEventsController",
+    "TopicName": "demomusti.identity_module.kafka_events.clean_kafka_events_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventscleankafkaeventswithmodelnameapimethoddefinitionsmodelnameKafkaEventsController",
+    "TopicName": "demomusti.identity_module.kafka_events.clean_kafka_events_with_model_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulekafkaeventsKafkaEventsController",
+    "TopicName": "demomusti.identity_module.kafka_events_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "TopicName": "demomusti.identity_module.kafka_events_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "TopicName": "demomusti.identity_module.kafka_events_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduletopicworkflowsTopicWorkflowsController",
+    "TopicName": "demomusti.identity_module.topic_workflows_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "TopicName": "demomusti.identity_module.topic_workflows_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "TopicName": "demomusti.identity_module.topic_workflows_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetrolesAspNetRolesController",
+    "TopicName": "demomusti.identity_module.asp_net_roles_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "TopicName": "demomusti.identity_module.asp_net_roles_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "TopicName": "demomusti.identity_module.asp_net_roles_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetusersAspNetUsersController",
+    "TopicName": "demomusti.identity_module.asp_net_users_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetusersidAspNetUsersController",
+    "TopicName": "demomusti.identity_module.asp_net_users_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetusersidAspNetUsersController",
+    "TopicName": "demomusti.identity_module.asp_net_users_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiidentitymodulerefreshtokensupdaterefreshtokensrefreshtokentokenRefreshTokensController",
+    "TopicName": "demomusti.identity_module.refresh_tokens.update_refresh_tokens_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulerefreshtokensRefreshTokensController",
+    "TopicName": "demomusti.identity_module.refresh_tokens_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "TopicName": "demomusti.identity_module.refresh_tokens_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "TopicName": "demomusti.identity_module.refresh_tokens_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetroleclaimsAspNetRoleClaimsController",
+    "TopicName": "demomusti.identity_module.asp_net_role_claims_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "TopicName": "demomusti.identity_module.asp_net_role_claims_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "TopicName": "demomusti.identity_module.asp_net_role_claims_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserclaimsAspNetUserClaimsController",
+    "TopicName": "demomusti.identity_module.asp_net_user_claims_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "TopicName": "demomusti.identity_module.asp_net_user_claims_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "TopicName": "demomusti.identity_module.asp_net_user_claims_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserloginsAspNetUserLoginsController",
+    "TopicName": "demomusti.identity_module.asp_net_user_logins_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "TopicName": "demomusti.identity_module.asp_net_user_logins_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "TopicName": "demomusti.identity_module.asp_net_user_logins_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserrolesAspNetUserRolesController",
+    "TopicName": "demomusti.identity_module.asp_net_user_roles_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "TopicName": "demomusti.identity_module.asp_net_user_roles_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "TopicName": "demomusti.identity_module.asp_net_user_roles_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetusertokensAspNetUserTokensController",
+    "TopicName": "demomusti.identity_module.asp_net_user_tokens_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "TopicName": "demomusti.identity_module.asp_net_user_tokens_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "TopicName": "demomusti.identity_module.asp_net_user_tokens_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleauditlogsAuditLogsController",
+    "TopicName": "demomusti.identity_module.audit_logs_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demomusti.identity_module.audit_logs_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demomusti.identity_module.audit_logs_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapicandidatetrackingmodulecandidatesupdatestatuscandidateidintCandidatesController",
+    "TopicName": "demomusti.candidate_tracking_module.candidates.update_status_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapicandidatetrackingmodulecandidatesactivatecandidateidintCandidatesController",
+    "TopicName": "demomusti.candidate_tracking_module.candidates.activate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapicandidatetrackingmodulecandidatesdeactivatecandidateidintCandidatesController",
+    "TopicName": "demomusti.candidate_tracking_module.candidates.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapicandidatetrackingmodulecandidatesCandidatesController",
+    "TopicName": "demomusti.candidate_tracking_module.candidates_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapicandidatetrackingmodulecandidatesidintCandidatesController",
+    "TopicName": "demomusti.candidate_tracking_module.candidates_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicandidatetrackingmodulecandidatesidintCandidatesController",
+    "TopicName": "demomusti.candidate_tracking_module.candidates_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapicandidatetrackingmodulequalificationsQualificationsController",
+    "TopicName": "demomusti.candidate_tracking_module.qualifications_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapicandidatetrackingmodulequalificationsidintQualificationsController",
+    "TopicName": "demomusti.candidate_tracking_module.qualifications_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicandidatetrackingmodulequalificationsidintQualificationsController",
+    "TopicName": "demomusti.candidate_tracking_module.qualifications_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapicandidatetrackingmoduleskillsSkillsController",
+    "TopicName": "demomusti.candidate_tracking_module.skills_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapicandidatetrackingmoduleskillsidintSkillsController",
+    "TopicName": "demomusti.candidate_tracking_module.skills_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicandidatetrackingmoduleskillsidintSkillsController",
+    "TopicName": "demomusti.candidate_tracking_module.skills_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapicandidatetrackingmoduleexperiencesExperiencesController",
+    "TopicName": "demomusti.candidate_tracking_module.experiences_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapicandidatetrackingmoduleexperiencesidintExperiencesController",
+    "TopicName": "demomusti.candidate_tracking_module.experiences_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicandidatetrackingmoduleexperiencesidintExperiencesController",
+    "TopicName": "demomusti.candidate_tracking_module.experiences_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapicandidatetrackingmoduleapplicationnotesApplicationNotesController",
+    "TopicName": "demomusti.candidate_tracking_module.application_notes_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapicandidatetrackingmoduleapplicationnotesidintApplicationNotesController",
+    "TopicName": "demomusti.candidate_tracking_module.application_notes_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicandidatetrackingmoduleapplicationnotesidintApplicationNotesController",
+    "TopicName": "demomusti.candidate_tracking_module.application_notes_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapicandidatetrackingmodulesourcetypesSourceTypesController",
+    "TopicName": "demomusti.candidate_tracking_module.source_types_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapicandidatetrackingmodulesourcetypesidintSourceTypesController",
+    "TopicName": "demomusti.candidate_tracking_module.source_types_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicandidatetrackingmodulesourcetypesidintSourceTypesController",
+    "TopicName": "demomusti.candidate_tracking_module.source_types_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapicandidatetrackingmodulecandidatesourcesCandidateSourcesController",
+    "TopicName": "demomusti.candidate_tracking_module.candidate_sources_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapicandidatetrackingmodulecandidatesourcesidintCandidateSourcesController",
+    "TopicName": "demomusti.candidate_tracking_module.candidate_sources_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicandidatetrackingmodulecandidatesourcesidintCandidateSourcesController",
+    "TopicName": "demomusti.candidate_tracking_module.candidate_sources_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapicandidatetrackingmoduleauditlogsAuditLogsController",
+    "TopicName": "demomusti.candidate_tracking_module.audit_logs_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapicandidatetrackingmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demomusti.candidate_tracking_module.audit_logs_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicandidatetrackingmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demomusti.candidate_tracking_module.audit_logs_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiinterviewmoduleinterviewsupdatestatusinterviewidintInterviewsController",
+    "TopicName": "demomusti.interview_module.interviews.update_status_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiinterviewmoduleinterviewsaddfeedbackinterviewidintInterviewsController",
+    "TopicName": "demomusti.interview_module.interviews.add_feedback_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinterviewmoduleinterviewsInterviewsController",
+    "TopicName": "demomusti.interview_module.interviews_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinterviewmoduleinterviewsidintInterviewsController",
+    "TopicName": "demomusti.interview_module.interviews_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinterviewmoduleinterviewsidintInterviewsController",
+    "TopicName": "demomusti.interview_module.interviews_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiinterviewmoduleinterviewersactivateintervieweridintInterviewersController",
+    "TopicName": "demomusti.interview_module.interviewers.activate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiinterviewmoduleinterviewersdeactivateintervieweridintInterviewersController",
+    "TopicName": "demomusti.interview_module.interviewers.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinterviewmoduleinterviewersInterviewersController",
+    "TopicName": "demomusti.interview_module.interviewers_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinterviewmoduleinterviewersidintInterviewersController",
+    "TopicName": "demomusti.interview_module.interviewers_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinterviewmoduleinterviewersidintInterviewersController",
+    "TopicName": "demomusti.interview_module.interviewers_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinterviewmoduleinterviewfeedbackquestionsInterviewFeedbackQuestionsController",
+    "TopicName": "demomusti.interview_module.interview_feedback_questions_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinterviewmoduleinterviewfeedbackquestionsidintInterviewFeedbackQuestionsController",
+    "TopicName": "demomusti.interview_module.interview_feedback_questions_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinterviewmoduleinterviewfeedbackquestionsidintInterviewFeedbackQuestionsController",
+    "TopicName": "demomusti.interview_module.interview_feedback_questions_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinterviewmoduleinterviewfeedbackanswersInterviewFeedbackAnswersController",
+    "TopicName": "demomusti.interview_module.interview_feedback_answers_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinterviewmoduleinterviewfeedbackanswersidintInterviewFeedbackAnswersController",
+    "TopicName": "demomusti.interview_module.interview_feedback_answers_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinterviewmoduleinterviewfeedbackanswersidintInterviewFeedbackAnswersController",
+    "TopicName": "demomusti.interview_module.interview_feedback_answers_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinterviewmoduleinterviewschedulesInterviewSchedulesController",
+    "TopicName": "demomusti.interview_module.interview_schedules_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinterviewmoduleinterviewschedulesidintInterviewSchedulesController",
+    "TopicName": "demomusti.interview_module.interview_schedules_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinterviewmoduleinterviewschedulesidintInterviewSchedulesController",
+    "TopicName": "demomusti.interview_module.interview_schedules_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinterviewmoduleinterviewnotesInterviewNotesController",
+    "TopicName": "demomusti.interview_module.interview_notes_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinterviewmoduleinterviewnotesidintInterviewNotesController",
+    "TopicName": "demomusti.interview_module.interview_notes_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinterviewmoduleinterviewnotesidintInterviewNotesController",
+    "TopicName": "demomusti.interview_module.interview_notes_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinterviewmoduleauditlogsAuditLogsController",
+    "TopicName": "demomusti.interview_module.audit_logs_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinterviewmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demomusti.interview_module.audit_logs_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinterviewmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demomusti.interview_module.audit_logs_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapitrainingmoduletrainingupdatestatustrainingidintTrainingController",
+    "TopicName": "demomusti.training_module.training.update_status_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapitrainingmoduletrainingTrainingController",
+    "TopicName": "demomusti.training_module.training_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapitrainingmoduletrainingidintTrainingController",
+    "TopicName": "demomusti.training_module.training_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitrainingmoduletrainingidintTrainingController",
+    "TopicName": "demomusti.training_module.training_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapitrainingmoduleemployeetrainingsEmployeeTrainingsController",
+    "TopicName": "demomusti.training_module.employee_trainings_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapitrainingmoduleemployeetrainingsidintEmployeeTrainingsController",
+    "TopicName": "demomusti.training_module.employee_trainings_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitrainingmoduleemployeetrainingsidintEmployeeTrainingsController",
+    "TopicName": "demomusti.training_module.employee_trainings_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapitrainingmoduletrainingmaterialsTrainingMaterialsController",
+    "TopicName": "demomusti.training_module.training_materials_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapitrainingmoduletrainingmaterialsidintTrainingMaterialsController",
+    "TopicName": "demomusti.training_module.training_materials_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitrainingmoduletrainingmaterialsidintTrainingMaterialsController",
+    "TopicName": "demomusti.training_module.training_materials_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapitrainingmoduletrainingfeedbacksTrainingFeedbacksController",
+    "TopicName": "demomusti.training_module.training_feedbacks_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapitrainingmoduletrainingfeedbacksidintTrainingFeedbacksController",
+    "TopicName": "demomusti.training_module.training_feedbacks_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitrainingmoduletrainingfeedbacksidintTrainingFeedbacksController",
+    "TopicName": "demomusti.training_module.training_feedbacks_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapitrainingmoduletrainingsessionsTrainingSessionsController",
+    "TopicName": "demomusti.training_module.training_sessions_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapitrainingmoduletrainingsessionsidintTrainingSessionsController",
+    "TopicName": "demomusti.training_module.training_sessions_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitrainingmoduletrainingsessionsidintTrainingSessionsController",
+    "TopicName": "demomusti.training_module.training_sessions_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapitrainingmoduletrainingcategoriesTrainingCategoriesController",
+    "TopicName": "demomusti.training_module.training_categories_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapitrainingmoduletrainingcategoriesidintTrainingCategoriesController",
+    "TopicName": "demomusti.training_module.training_categories_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitrainingmoduletrainingcategoriesidintTrainingCategoriesController",
+    "TopicName": "demomusti.training_module.training_categories_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapitrainingmoduletrainingcategoryassignmentsTrainingCategoryAssignmentsController",
+    "TopicName": "demomusti.training_module.training_category_assignments_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapitrainingmoduletrainingcategoryassignmentsidintTrainingCategoryAssignmentsController",
+    "TopicName": "demomusti.training_module.training_category_assignments_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitrainingmoduletrainingcategoryassignmentsidintTrainingCategoryAssignmentsController",
+    "TopicName": "demomusti.training_module.training_category_assignments_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapitrainingmoduleauditlogsAuditLogsController",
+    "TopicName": "demomusti.training_module.audit_logs_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapitrainingmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demomusti.training_module.audit_logs_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitrainingmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demomusti.training_module.audit_logs_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpagedefinitionsupdateportalpagepermissionPortalPageDefinitionsController",
+    "TopicName": "demomusti.identity_module.portal_page_definitions.update_portal_page_permission_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethoddefinitionsupdateapipermissionApiMethodDefinitionsController",
+    "TopicName": "demomusti.identity_module.api_method_definitions.update_api_permission_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthregisterAuthenticationsController",
+    "TopicName": "demomusti.auth.register_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthloginAuthenticationsController",
+    "TopicName": "demomusti.auth.login_post",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthvalidateAuthenticationsController",
+    "TopicName": "demomusti.auth.validate_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthrefreshAuthenticationsController",
+    "TopicName": "demomusti.auth.refresh_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthresendconfirmationemailAuthenticationsController",
+    "TopicName": "demomusti.auth.resendconfirmationemail_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthforgotpasswordAuthenticationsController",
+    "TopicName": "demomusti.auth.forgotpassword_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthresetpasswordAuthenticationsController",
+    "TopicName": "demomusti.auth.resetpassword_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "Postapiauthmanageuser2faAuthenticationsController",
+    "TopicName": "demomusti.auth.manage.user2fa_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthmanageinfoAuthenticationsController",
+    "TopicName": "demomusti.auth.manage.info_post",
+    "IsActive": false
+  }
+]
+}

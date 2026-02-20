@@ -1,0 +1,1 @@
+﻿SELECT * FROM [EXPERIENCES] WHERE [CANDIDATE_ID] = @candidatesId

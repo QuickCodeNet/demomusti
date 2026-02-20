@@ -1,0 +1,119 @@
+services:
+  demomusti-pg-data:
+    container_name: "demomusti-pg-data"
+    image: postgres:18
+
+  demomusti-sql-data:
+    container_name: "demomusti-sql-data"
+    image: mcr.microsoft.com/mssql/server:2025-latest
+    
+  demomusti-mysql-data:
+    container_name: "demomusti-mysql-data"
+    image: mysql:8.3
+
+  demomusti-elasticsearch:
+    container_name: demomusti-elasticsearch
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+
+  demomusti-kibana:
+    container_name: demomusti-kibana
+    image: docker.elastic.co/kibana/kibana:8.11.0
+
+  quickcode-demomusti-gateway-api:
+    container_name: "quickcode-demomusti-gateway-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demomusti-gateway-api
+    build:
+      context: .
+      dockerfile: Presentation/QuickCode.Demomusti.Gateway/Dockerfile
+
+  quickcode-demomusti-identity-module-api:
+    container_name: "quickcode-demomusti-identity-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demomusti-identity-module-api
+    build:
+      context: . 
+      dockerfile: Modules/IdentityModule/Presentation/QuickCode.Demomusti.IdentityModule.Api/Dockerfile
+    depends_on:
+      - demomusti-sql-data
+      - demomusti-pg-data
+      
+
+  quickcode-demomusti-candidate-tracking-module-api:
+    container_name: "quickcode-demomusti-candidate-tracking-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demomusti-candidate-tracking-module-api
+    build:
+      context: . 
+      dockerfile: Modules/CandidateTrackingModule/Presentation/QuickCode.Demomusti.CandidateTrackingModule.Api/Dockerfile
+    depends_on:
+      - demomusti-sql-data
+      - demomusti-pg-data
+      
+
+  quickcode-demomusti-interview-module-api:
+    container_name: "quickcode-demomusti-interview-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demomusti-interview-module-api
+    build:
+      context: . 
+      dockerfile: Modules/InterviewModule/Presentation/QuickCode.Demomusti.InterviewModule.Api/Dockerfile
+    depends_on:
+      - demomusti-sql-data
+      - demomusti-pg-data
+      
+
+  quickcode-demomusti-training-module-api:
+    container_name: "quickcode-demomusti-training-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demomusti-training-module-api
+    build:
+      context: . 
+      dockerfile: Modules/TrainingModule/Presentation/QuickCode.Demomusti.TrainingModule.Api/Dockerfile
+    depends_on:
+      - demomusti-sql-data
+      - demomusti-pg-data
+      
+
+#[-WEB-]
+  
+  demomusti-zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    container_name: demomusti-zookeeper
+    ports:
+      - "${ZOOKEEPER_PORT:-2181}:2181"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  demomusti-kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: demomusti-kafka
+    depends_on:
+      - demomusti-zookeeper
+    ports:
+      - "${KAFKA_PORT:-9092}:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: demomusti-zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://demomusti-kafka:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+
+  demomusti-kafdrop:
+    image: obsidiandynamics/kafdrop:latest
+    container_name: demomusti-kafdrop
+    ports:
+      - "${KAFDROP_PORT:-9000}:9000"
+    depends_on:
+      - demomusti-kafka
+    environment:
+      KAFKA_BROKERCONNECT: demomusti-kafka:9092
+        
+  quickcode-demomusti-portal:
+    container_name: "quickcode-demomusti-portal"
+    image: ${DOCKER_REGISTRY-}quickcode-demomusti-portal
+    build:
+      context: .
+      dockerfile: Presentation/QuickCode.Demomusti.Portal/Dockerfile
+      
+  quickcode-demomusti-event-listener-service:
+    container_name: "quickcode-demomusti-event-listener-service"
+    image: ${DOCKER_REGISTRY-}quickcode-demomusti-event-listener-service
+    build:
+      context: .
+      dockerfile: Services/QuickCode.Demomusti.EventListenerService/Dockerfile
