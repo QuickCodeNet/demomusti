@@ -17,6 +17,5 @@ namespace QuickCode.Demomusti.IdentityModule.Application.Dtos.RefreshToken
 {
     public record UpdateRefreshTokensRequestDto
     {
-        public readonly bool RefreshTokenIsRevoked = true;
     }
 }

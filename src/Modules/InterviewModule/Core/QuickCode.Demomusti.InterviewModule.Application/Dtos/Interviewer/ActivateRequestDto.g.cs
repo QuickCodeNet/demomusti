@@ -17,6 +17,5 @@ namespace QuickCode.Demomusti.InterviewModule.Application.Dtos.Interviewer
 {
     public record ActivateRequestDto
     {
-        public readonly bool InterviewerIsActive = true;
     }
 }

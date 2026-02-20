@@ -17,6 +17,5 @@ namespace QuickCode.Demomusti.CandidateTrackingModule.Application.Dtos.Candidate
 {
     public record DeactivateRequestDto
     {
-        public readonly bool CandidateIsActive = false;
     }
 }

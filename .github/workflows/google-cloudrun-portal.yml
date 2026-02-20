@@ -69,7 +69,9 @@ jobs:
         if: always()
         uses: nick-fields/retry@v2
         with:
-          command: "curl -f -S --connect-timeout 15 --max-time 60 'https://api.quickcode.net/api/GenerateSite/UpdateGeneratorActionByProject?projectName=${{ env.PROJECT_NAME }}&step=${{ env.BUILD_STEP_NAME }}&stepParameters=${{ env.STEP_PARAMS }}&isCompleted=false&message=InProgress&runId=${{ env.QUICKCODE_RUN_ID }}' && curl -f -S -X PATCH --connect-timeout 15 --max-time 60 'https://api.quickcode.net/api/quick-code-module/generation-actions/update-action-started/${{ env.PROJECT_NAME }}/${{ env.BUILD_STEP_NAME }}/${{ env.QUICKCODE_BUILD_STEP_ID }}' -H 'Content-Type: application/json' -d '{\"generationActionsOutputMessage\":\"InProgress\"}'"
+          command: |
+            curl -f -S --connect-timeout 15 --max-time 60 "https://api.quickcode.net/api/GenerateSite/UpdateGeneratorActionByProject?projectName=${{ env.PROJECT_NAME }}&step=${{ env.BUILD_STEP_NAME }}&stepParameters=${{ env.STEP_PARAMS }}&isCompleted=false&message=InProgress&runId=${{ env.QUICKCODE_RUN_ID }}" && \
+            curl -f -S -X PATCH --connect-timeout 15 --max-time 60 "https://api.quickcode.net/api/quick-code-module/generation-actions/update-action-started/${{ env.PROJECT_NAME }}/${{ env.BUILD_STEP_NAME }}/${{ env.QUICKCODE_BUILD_STEP_ID }}" -H "Content-Type: application/json" -d '{"generationActionsOutputMessage":"InProgress"}'
           max_attempts: 5
           retry_wait_seconds: 10
           timeout_minutes: 2
@@ -89,7 +91,9 @@ jobs:
         if: always()
         uses: nick-fields/retry@v2
         with:
-          command: "curl -f -S --connect-timeout 15 --max-time 60 'https://api.quickcode.net/api/GenerateSite/UpdateGeneratorActionByProject?projectName=${{ env.PROJECT_NAME }}&step=${{ env.BUILD_STEP_NAME }}&stepParameters=${{ env.STEP_PARAMS }}&isCompleted=true&message=Completed&runId=${{ env.QUICKCODE_RUN_ID }}' && curl -f -S -X PATCH --connect-timeout 15 --max-time 60 'https://api.quickcode.net/api/quick-code-module/generation-actions/update-action-completed/${{ env.PROJECT_NAME }}/${{ env.BUILD_STEP_NAME }}/${{ env.QUICKCODE_BUILD_STEP_ID }}' -H 'Content-Type: application/json' -d '{\"generationActionsOutputMessage\":\"Completed\"}'"
+          command: |
+            curl -f -S --connect-timeout 15 --max-time 60 "https://api.quickcode.net/api/GenerateSite/UpdateGeneratorActionByProject?projectName=${{ env.PROJECT_NAME }}&step=${{ env.BUILD_STEP_NAME }}&stepParameters=${{ env.STEP_PARAMS }}&isCompleted=true&message=Completed&runId=${{ env.QUICKCODE_RUN_ID }}" && \
+            curl -f -S -X PATCH --connect-timeout 15 --max-time 60 "https://api.quickcode.net/api/quick-code-module/generation-actions/update-action-completed/${{ env.PROJECT_NAME }}/${{ env.BUILD_STEP_NAME }}/${{ env.QUICKCODE_BUILD_STEP_ID }}" -H "Content-Type: application/json" -d '{"generationActionsOutputMessage":"Completed"}'
           max_attempts: 5
           retry_wait_seconds: 10
           timeout_minutes: 2
@@ -98,7 +102,9 @@ jobs:
         if: always()
         uses: nick-fields/retry@v2
         with:
-          command: "curl -f -S --connect-timeout 15 --max-time 60 'https://api.quickcode.net/api/GenerateSite/UpdateGeneratorActionByProject?projectName=${{ env.PROJECT_NAME }}&step=${{ env.DEPLOY_STEP_NAME }}&stepParameters=${{ env.STEP_PARAMS }}&isCompleted=false&message=InProgress&runId=${{ env.QUICKCODE_RUN_ID }}' && curl -f -S -X PATCH --connect-timeout 15 --max-time 60 'https://api.quickcode.net/api/quick-code-module/generation-actions/update-action-started/${{ env.PROJECT_NAME }}/${{ env.DEPLOY_STEP_NAME }}/${{ env.QUICKCODE_DEPLOY_STEP_ID }}' -H 'Content-Type: application/json' -d '{\"generationActionsOutputMessage\":\"InProgress\"}'"
+          command: |
+            curl -f -S --connect-timeout 15 --max-time 60 "https://api.quickcode.net/api/GenerateSite/UpdateGeneratorActionByProject?projectName=${{ env.PROJECT_NAME }}&step=${{ env.DEPLOY_STEP_NAME }}&stepParameters=${{ env.STEP_PARAMS }}&isCompleted=false&message=InProgress&runId=${{ env.QUICKCODE_RUN_ID }}" && \
+            curl -f -S -X PATCH --connect-timeout 15 --max-time 60 "https://api.quickcode.net/api/quick-code-module/generation-actions/update-action-started/${{ env.PROJECT_NAME }}/${{ env.DEPLOY_STEP_NAME }}/${{ env.QUICKCODE_DEPLOY_STEP_ID }}" -H "Content-Type: application/json" -d '{"generationActionsOutputMessage":"InProgress"}'
           max_attempts: 5
           retry_wait_seconds: 10
           timeout_minutes: 2
@@ -122,7 +128,9 @@ jobs:
         if: always()
         uses: nick-fields/retry@v2
         with:
-          command: "curl -f -S --connect-timeout 15 --max-time 60 'https://api.quickcode.net/api/GenerateSite/UpdateGeneratorActionByProject?projectName=${{ env.PROJECT_NAME }}&step=${{ env.DEPLOY_STEP_NAME }}&stepParameters=${{ env.STEP_PARAMS }}&isCompleted=true&message=Deployed&runId=${{ env.QUICKCODE_RUN_ID }}' && curl -f -S -X PATCH --connect-timeout 15 --max-time 60 'https://api.quickcode.net/api/quick-code-module/generation-actions/update-action-completed/${{ env.PROJECT_NAME }}/${{ env.DEPLOY_STEP_NAME }}/${{ env.QUICKCODE_DEPLOY_STEP_ID }}' -H 'Content-Type: application/json' -d '{\"generationActionsOutputMessage\":\"${{ steps.deploy.outputs.url }}\"}'"
+          command: |
+            curl -f -S --connect-timeout 15 --max-time 60 "https://api.quickcode.net/api/GenerateSite/UpdateGeneratorActionByProject?projectName=${{ env.PROJECT_NAME }}&step=${{ env.DEPLOY_STEP_NAME }}&stepParameters=${{ env.STEP_PARAMS }}&isCompleted=true&message=Deployed&runId=${{ env.QUICKCODE_RUN_ID }}" && \
+            curl -f -S -X PATCH --connect-timeout 15 --max-time 60 "https://api.quickcode.net/api/quick-code-module/generation-actions/update-action-completed/${{ env.PROJECT_NAME }}/${{ env.DEPLOY_STEP_NAME }}/${{ env.QUICKCODE_DEPLOY_STEP_ID }}" -H "Content-Type: application/json" -d '{"generationActionsOutputMessage":"${{ steps.deploy.outputs.url }}"}' 
           max_attempts: 5
           retry_wait_seconds: 10
           timeout_minutes: 2
